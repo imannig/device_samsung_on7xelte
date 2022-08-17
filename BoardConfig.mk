@@ -28,6 +28,7 @@ LOCAL_PATH := device/samsung/on7xelte
 TARGET_INIT_VENDOR_LIB := libinit_sec
 
 # SELinux
+SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += device/samsung/on7xelte/sepolicy
 
 # Properties
